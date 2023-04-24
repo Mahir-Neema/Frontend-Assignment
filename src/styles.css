@@ -7,21 +7,27 @@
 .heading{
   text-align: center;
   color: white;
+  background-color: cadetblue;
+  padding: 10px;
+  font-size: 25px;
 }
 
 .editor-container {
   flex: 1;
   padding: 10px;
   box-sizing: border-box;
-  margin-right: 25px;
+  margin-right: 15px;
 }
 
 .preview-container {
   flex: 1;
   padding: 15px;
   box-sizing: border-box;
-  margin-left: 25px;
-  background-color: #dbcdf1;
+  margin-left: 15px;
+  margin-right: 10px;
+  /* background-color: #dbcdf1; */
+  background-color: rgb(244, 244, 244);
+  border: 1px solid rgb(2, 168, 245);
   margin-top: 10px;
   border-radius: 10px;
   overflow-y: scroll;

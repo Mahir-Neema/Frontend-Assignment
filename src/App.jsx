@@ -52,7 +52,7 @@ function App() {
   };
 
   return (<>
-    <h1 className="heading">Automatically rendered UI Schema</h1>
+    <div className="heading">Automatically rendered UI Schema</div>
     <div className="app">
       <div className="editor-container">
         <textarea
