@@ -1,5 +1,5 @@
 const Inputs = [
-    "Input", "Group", "Radio", "Select", "SubmitEvent"
+    "Input", "Group", "Radio", "Select", "Submit"
 ]
 
 export { Inputs };

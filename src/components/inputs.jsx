@@ -8,12 +8,14 @@ import { Inputs } from "../constants/inputs";
 import GroupInput from "./group";
 import SelectInput from "./select";
 import RadioInput from "./Radio";
+import SubmitButton from "./submit";
 
 const InputsRender = ({ data }) => {
   return (
     <>
       {data.uiType === Inputs[3] && <SelectInput s={data} />}
       {data.uiType === Inputs[2] && <RadioInput r={data} />}
+      {data.uiType === Inputs[4] && <SubmitButton />}
       {data.uiType !== Inputs[3] && data.uiType !== Inputs[2] && (
         <FormControl
           isRequired={data.validate.required}

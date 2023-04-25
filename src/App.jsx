@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import {
-  Input,
   Textarea,
   SkeletonCircle,
   SkeletonText,
@@ -10,7 +9,6 @@ import {
   Spacer,
   Box,
   Heading,
-  Stack,
   Button,
 } from "@chakra-ui/react";
 import DynamicForm from "./components/DynamicForm";
